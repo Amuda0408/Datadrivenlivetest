@@ -1,0 +1,22 @@
+Way2Automation-live project
+Excel
+logs
+Mails
+Zip
+Listeners-sofyt Assertion, Test Failure
+Jenkin
+Maven
+ReportNG
+ExtentReports
+Database
+Properties
+RunModes
+TestNG
+ScreenShotUtils
+
+
+
+
+logs:
+one timeconfiguration
+run-->Run confiiguartion-->Maven Build-->classpath--> user entries--?advanced--Add folder--project folder -->log4jprpoperties-->Run

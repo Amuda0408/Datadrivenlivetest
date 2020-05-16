@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Verification Failure : expected [abc] but found [xyz]<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Fri_May_15_23_20_04_EDT_2020.jpg><img src=Fri_May_15_23_20_04_EDT_2020.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="39546" started-at="2020-05-16T03:20:04Z" finished-at="2020-05-16T03:20:44Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="7517" started-at="2020-05-16T03:20:04Z" finished-at="2020-05-16T03:20:12Z">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.w2a.testcases.LoginTest@19932c16]" name="loginTest" duration-ms="7242" started-at="2020-05-15T23:20:04Z" finished-at="2020-05-15T23:20:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Verification Failure : expected [abc] but found [xyz]<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Fri_May_15_23_20_04_EDT_2020.jpg><img src=Fri_May_15_23_20_04_EDT_2020.jpg height=200 width=200></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="AddCustomerTest" duration-ms="28851" started-at="2020-05-16T03:20:12Z" finished-at="2020-05-16T03:20:40Z">
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@5a59ca5e]" name="addCustomerTest" duration-ms="9875" started-at="2020-05-15T23:20:12Z" data-provider="dp" finished-at="2020-05-15T23:20:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A243wd, lastName=Arora, firstName=Raman, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@5a59ca5e]" name="addCustomerTest" duration-ms="9369" started-at="2020-05-15T23:20:21Z" data-provider="dp" finished-at="2020-05-15T23:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=B43555g, lastName=Siva, firstName=Amuda, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@5a59ca5e]" name="addCustomerTest" duration-ms="9436" started-at="2020-05-15T23:20:31Z" data-provider="dp" finished-at="2020-05-15T23:20:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=c45657Q, lastName=agarwal, firstName=Priya, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+    <test name="OpenAccountTest" duration-ms="3166" started-at="2020-05-16T03:20:40Z" finished-at="2020-05-16T03:20:44Z">
+      <class name="com.w2a.testcases.OpenAccountTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.w2a.testcases.OpenAccountTest@4d1bf319]" name="setUP" is-config="true" duration-ms="12141" started-at="2020-05-15T23:19:52Z" finished-at="2020-05-15T23:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@4d1bf319]" name="openAccountTest" duration-ms="3120" started-at="2020-05-15T23:20:40Z" data-provider="dp" finished-at="2020-05-15T23:20:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, customer=Raman Arora}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@4d1bf319]" name="tearDown" is-config="true" duration-ms="682" started-at="2020-05-15T23:20:44Z" finished-at="2020-05-15T23:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.OpenAccountTest -->
+    </test> <!-- OpenAccountTest -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
