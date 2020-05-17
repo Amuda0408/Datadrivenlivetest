@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 13 11:44:30 EDT 2020</td>
+<td>Started on:</td><td>Sat May 16 22:54:10 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (703 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (743 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,29 +75,29 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.w2a.testcases.LoginTest.loginAsBankManager()'><b>loginAsBankManager</b><br>Test class: com.w2a.testcases.LoginTest<br/>
-<a href="#Output-854653864" onClick='toggleBox("Output-854653864", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.w2a.testcases.LoginTest.loginTest()'><b>loginTest</b><br>Test class: com.w2a.testcases.LoginTest<br/>
+<a href="#Output-1321115948" onClick='toggleBox("Output-1321115948", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-854653864" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-854653864">
+<a href="#Output-1321115948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1321115948">
 Click to see Screenshot<br/>
-<a target="_blank" href=null>Screenshot</a><br/>
+<a target="_blank" href=Sat_May_16_22_54_10_EDT_2020.jpg>Screenshot</a><br/>
 <br><br/>
 <br><br/>
-<a target="_blank" href=null><img src=null height=200 width=200></img></a><br/>
+<a target="_blank" href=Sat_May_16_22_54_10_EDT_2020.jpg><img src=Sat_May_16_22_54_10_EDT_2020.jpg height=200 width=200></img></a><br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: expected [xyz] but found [abc]
-	at com.w2a.testcases.LoginTest.loginAsBankManager(LoginTest.java:15)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace854653864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace854653864'><pre>java.lang.AssertionError: expected [xyz] but found [abc]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.w2a.testcases.LoginTest.loginAsBankManager(LoginTest.java:15)
+<td><div><pre>java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.&lt;init&gt;(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.w2a.base.TestBase.click(TestBase.java:113)
+	at com.w2a.testcases.LoginTest.loginTest(LoginTest.java:23)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1321115948", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1321115948'><pre>java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.&lt;init&gt;(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.w2a.base.TestBase.click(TestBase.java:113)
+	at com.w2a.testcases.LoginTest.loginTest(LoginTest.java:23)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,7 +125,7 @@ Click to see Screenshot<br/>
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.w2a.testcases.LoginTest@461ad730</td></tr>
+<td>com.w2a.testcases.LoginTest@1a5a4e19</td></tr>
 </table><p>
 </body>
 </html>

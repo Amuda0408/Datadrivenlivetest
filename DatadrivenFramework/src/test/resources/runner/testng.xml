@@ -14,8 +14,8 @@
     <classes>
       <class name="com.w2a.testcases.LoginTest"/>
     </classes>
-  </test> <!-- Test -->
-  <test name="AddCustomerTest">
+    </test> <!-- Test -->
+     <test name="AddCustomerTest">
     <classes>
       <class name="com.w2a.testcases.AddCustomerTest"/>
     </classes>
@@ -25,4 +25,6 @@
       <class name="com.w2a.testcases.OpenAccountTest"/>
     </classes>
   </test> <!-- Test -->
+  
+  
 </suite> <!-- Suite -->

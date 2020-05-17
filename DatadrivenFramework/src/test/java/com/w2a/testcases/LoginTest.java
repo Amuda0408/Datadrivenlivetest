@@ -14,8 +14,8 @@ public class LoginTest extends TestBase {
 	
 @Test
 public void loginTest() throws InterruptedException, IOException {
-	verifyEquals("abc", "xyz");
-	Thread.sleep(3000);
+	//verifyEquals("abc", "xyz");
+	//Thread.sleep(3000);
 	
 	log.debug("Inside Login Test");
 	//instead typing this entire line just call the method
