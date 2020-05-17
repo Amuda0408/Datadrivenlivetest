@@ -1,11 +1,39 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.477 sec <<< FAILURE! - in TestSuite
-loginTest(com.w2a.testcases.LoginTest)  Time elapsed: 3.986 sec  <<< FAILURE!
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 20.887 sec <<< FAILURE! - in TestSuite
+loginTest(com.w2a.testcases.LoginTest)  Time elapsed: 0.539 sec  <<< FAILURE!
 java.lang.IllegalArgumentException: Cannot find elements when the selector is null
 	at org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
 	at org.openqa.selenium.By.cssSelector(By.java:116)
 	at com.w2a.base.TestBase.click(TestBase.java:113)
 	at com.w2a.testcases.LoginTest.loginTest(LoginTest.java:23)
+
+addCustomerTest(com.w2a.testcases.AddCustomerTest)  Time elapsed: 0.298 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.w2a.base.TestBase.click(TestBase.java:113)
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:35)
+
+addCustomerTest(com.w2a.testcases.AddCustomerTest)  Time elapsed: 0.287 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.w2a.base.TestBase.click(TestBase.java:113)
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:35)
+
+addCustomerTest(com.w2a.testcases.AddCustomerTest)  Time elapsed: 0.249 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.w2a.base.TestBase.click(TestBase.java:113)
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:35)
+
+openAccountTest(com.w2a.testcases.OpenAccountTest)  Time elapsed: 0.275 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.w2a.base.TestBase.click(TestBase.java:113)
+	at com.w2a.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
 

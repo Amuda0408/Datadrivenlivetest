@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginTest"
+<testsuite name="OpenAccountTest"
            tests="1"
            failures="1"
            errors="0"
            skipped="0"
-           time="0.005">
+           time="0.001">
   <properties />
-            <testcase name="loginTest" time="0.005" classname="com.w2a.testcases.LoginTest">
+            <testcase name="openAccountTest" time="0.001" classname="com.w2a.testcases.OpenAccountTest">
                 <failure type="java.lang.IllegalArgumentException"
                   message="Cannot find elements when the selector is null"
               >
@@ -14,7 +14,7 @@
   org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
   org.openqa.selenium.By.cssSelector(By.java:116)
   com.w2a.base.TestBase.click(TestBase.java:113)
-  com.w2a.testcases.LoginTest.loginTest(LoginTest.java:23)
+  com.w2a.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:34)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

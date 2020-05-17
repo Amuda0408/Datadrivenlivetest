@@ -17,4 +17,26 @@
       </class> <!-- com.w2a.testcases.LoginTest -->
     </classes>
   </test> <!-- LoginTest(failed) -->
+  <test name="AddCustomerTest(failed)">
+    <classes>
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="addCustomerTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- AddCustomerTest(failed) -->
+  <test name="OpenAccountTest(failed)">
+    <classes>
+      <class name="com.w2a.testcases.OpenAccountTest">
+        <methods>
+          <include name="openAccountTest" invocation-numbers="0"/>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- OpenAccountTest(failed) -->
 </suite> <!-- Failed suite [Data Driven Basics] -->
