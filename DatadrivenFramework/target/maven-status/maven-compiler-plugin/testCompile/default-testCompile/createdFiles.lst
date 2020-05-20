@@ -1,10 +1,14 @@
 com\w2a\Utilities\TestUtil.class
+com\w2a\Utilities\MonitoringMail.class
+com\w2a\testcases\AddCustomerTest.class
 com\w2a\Utilities\ExcelReader.class
 com\w2a\rough\Testproperties.class
+com\w2a\Utilities\MonitoringMail$SMTPAuthenticator.class
 com\w2a\rough\TestTimeStamp.class
 com\w2a\listeners\CustomListeners.class
 com\w2a\Utilities\ExtentManager.class
+com\w2a\Utilities\TestConfig.class
+com\w2a\Utilities\MonitoringMail$1.class
 com\w2a\testcases\OpenAccountTest.class
 com\w2a\base\TestBase.class
-com\w2a\testcases\AddCustomerTest.class
 com\w2a\testcases\LoginTest.class

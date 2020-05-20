@@ -24,10 +24,6 @@ import org.testng.annotations.BeforeSuite;
 import com.aventstack.extentreports.Status;
 import com.w2a.Utilities.TestUtil;
 import com.w2a.listeners.CustomListeners;
-import com.w2a.Utilities.ExcelReader;
-import com.w2a.Utilities.ExtentManager;
-import com.w2a.listeners.CustomListeners;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {

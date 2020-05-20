@@ -3,11 +3,13 @@
            tests="1"
            failures="0"
            errors="0"
-           skipped="0"
-           time="3.427">
+           skipped="1"
+           time="0.000">
   <properties />
   
+            <testcase name="loginTest" time="0.0" classname="com.w2a.testcases.LoginTest">
+          <skipped />
+    </testcase>
   
-            <testcase name="loginTest" time="3.427" classname="com.w2a.testcases.LoginTest" />
-      
+  
 </testsuite>

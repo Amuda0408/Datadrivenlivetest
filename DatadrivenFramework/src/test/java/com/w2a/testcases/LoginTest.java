@@ -2,7 +2,7 @@ package com.w2a.testcases;
 
 import java.io.IOException;
 
-import org.apache.log4j.BasicConfigurator;
+//import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.Reporter;
