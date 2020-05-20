@@ -11,8 +11,10 @@ public class Testproperties {
 		Properties config = new Properties();
 		Properties OR = new Properties();
 		FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\Config.properties");
+		System.out.println("config: "+ fis);
 		config.load(fis);
 		fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\OR.properties");
+		System.out.println("OR: "+ fis);
 		OR.load(fis);
 		System.out.println(config.getProperty("browser"));
 		System.out.println(OR.getProperty("BkmLBtn"));

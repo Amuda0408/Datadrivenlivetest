@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="0.017">
+           time="0.056">
   <properties />
-            <testcase name="loginTest" time="0.017" classname="com.w2a.testcases.LoginTest">
+            <testcase name="loginTest" time="0.056" classname="com.w2a.testcases.LoginTest">
                 <failure type="java.lang.IllegalArgumentException"
                   message="Cannot find elements when the selector is null"
               >

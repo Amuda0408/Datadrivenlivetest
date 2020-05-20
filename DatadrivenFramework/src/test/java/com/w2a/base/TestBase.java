@@ -72,8 +72,8 @@ public class TestBase {
 			e1.printStackTrace();
 		}
 		try {
-			//fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\OR.properties");
-			fis= new FileInputStream("C:\\Users\\amuda\\Amuda_liveProject\\DatadrivenFramework\\src\\test\\resources\\properties\\OR.properties");
+			fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\OR.properties");
+			//fis= new FileInputStream("C:\\Users\\amuda\\Amuda_liveProject\\DatadrivenFramework\\src\\test\\resources\\properties\\OR.properties");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

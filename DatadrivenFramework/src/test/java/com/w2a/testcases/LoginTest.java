@@ -30,8 +30,6 @@ public void loginTest() throws InterruptedException, IOException {
 	//Assert.fail("Login is not successful");
 }
 
-	//add information ReportNG
-	//BasicConfigurator.configure();
 	
 }	
 

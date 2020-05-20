@@ -7,9 +7,6 @@
 <listener class-name="com.w2a.listeners.CustomListeners"/>
 </listeners>
 
-
-
-
   <test name="LoginTest">
     <classes>
       <class name="com.w2a.testcases.LoginTest"/>

@@ -4,9 +4,9 @@
            failures="3"
            errors="0"
            skipped="0"
-           time="0.004">
+           time="0.001">
   <properties />
-            <testcase name="addCustomerTest" time="0.001" classname="com.w2a.testcases.AddCustomerTest">
+            <testcase name="addCustomerTest" time="0.000" classname="com.w2a.testcases.AddCustomerTest">
                 <failure type="java.lang.IllegalArgumentException"
                   message="Cannot find elements when the selector is null"
               >
@@ -47,7 +47,7 @@
       </failure>
 
           </testcase>
-            <testcase name="addCustomerTest" time="0.002" classname="com.w2a.testcases.AddCustomerTest">
+            <testcase name="addCustomerTest" time="0.000" classname="com.w2a.testcases.AddCustomerTest">
                 <failure type="java.lang.IllegalArgumentException"
                   message="Cannot find elements when the selector is null"
               >

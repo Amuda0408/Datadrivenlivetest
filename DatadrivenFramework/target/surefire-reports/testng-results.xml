@@ -5,7 +5,7 @@
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_25_59_EDT_2020.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_21_EDT_2020.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -14,13 +14,13 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_25_59_EDT_2020.jpg><img src=Sat_May_16_23_25_59_EDT_2020.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_21_EDT_2020.jpg><img src=Sun_May_17_00_27_21_EDT_2020.jpg height=200 width=200></img></a>]]>
     </line>
     <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_22_EDT_2020.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -29,13 +29,13 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg><img src=Sat_May_16_23_26_00_EDT_2020.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_22_EDT_2020.jpg><img src=Sun_May_17_00_27_22_EDT_2020.jpg height=200 width=200></img></a>]]>
     </line>
     <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_22_EDT_2020.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -44,13 +44,13 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg><img src=Sat_May_16_23_26_00_EDT_2020.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_22_EDT_2020.jpg><img src=Sun_May_17_00_27_22_EDT_2020.jpg height=200 width=200></img></a>]]>
     </line>
     <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_23_EDT_2020.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -59,13 +59,13 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg><img src=Sat_May_16_23_26_00_EDT_2020.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_23_EDT_2020.jpg><img src=Sun_May_17_00_27_23_EDT_2020.jpg height=200 width=200></img></a>]]>
     </line>
     <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_23_EDT_2020.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -74,15 +74,15 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg><img src=Sat_May_16_23_26_00_EDT_2020.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Sun_May_17_00_27_23_EDT_2020.jpg><img src=Sun_May_17_00_27_23_EDT_2020.jpg height=200 width=200></img></a>]]>
     </line>
   </reporter-output>
-  <suite name="Data Driven Basics" duration-ms="1774" started-at="2020-05-17T03:25:59Z" finished-at="2020-05-17T03:26:00Z">
+  <suite name="Data Driven Basics" duration-ms="10695" started-at="2020-05-17T04:27:12Z" finished-at="2020-05-17T04:27:23Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="565" started-at="2020-05-17T03:25:59Z" finished-at="2020-05-17T03:25:59Z">
+    <test name="LoginTest" duration-ms="9506" started-at="2020-05-17T04:27:12Z" finished-at="2020-05-17T04:27:22Z">
       <class name="com.w2a.testcases.LoginTest">
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.w2a.testcases.LoginTest@4a003cbe]" name="loginTest" duration-ms="5" started-at="2020-05-16T23:25:59Z" finished-at="2020-05-16T23:25:59Z">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.w2a.testcases.LoginTest@4a003cbe]" name="loginTest" duration-ms="5" started-at="2020-05-17T00:27:12Z" finished-at="2020-05-17T00:27:12Z">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Cannot find elements when the selector is null]]>
@@ -129,7 +129,7 @@
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_25_59_EDT_2020.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_21_EDT_2020.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -138,15 +138,15 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_25_59_EDT_2020.jpg><img src=Sat_May_16_23_25_59_EDT_2020.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_21_EDT_2020.jpg><img src=Sun_May_17_00_27_21_EDT_2020.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- com.w2a.testcases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test name="AddCustomerTest" duration-ms="897" started-at="2020-05-17T03:25:59Z" finished-at="2020-05-17T03:26:00Z">
+    <test name="AddCustomerTest" duration-ms="876" started-at="2020-05-17T04:27:22Z" finished-at="2020-05-17T04:27:23Z">
       <class name="com.w2a.testcases.AddCustomerTest">
-        <test-method status="FAIL" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@52f27fbd]" name="addCustomerTest" duration-ms="1" started-at="2020-05-16T23:25:59Z" data-provider="dp" finished-at="2020-05-16T23:25:59Z">
+        <test-method status="FAIL" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@52f27fbd]" name="addCustomerTest" duration-ms="1" started-at="2020-05-17T00:27:22Z" data-provider="dp" finished-at="2020-05-17T00:27:22Z">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,7 @@
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_22_EDT_2020.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -209,11 +209,11 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg><img src=Sat_May_16_23_26_00_EDT_2020.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_22_EDT_2020.jpg><img src=Sun_May_17_00_27_22_EDT_2020.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="FAIL" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@52f27fbd]" name="addCustomerTest" duration-ms="1" started-at="2020-05-16T23:26:00Z" data-provider="dp" finished-at="2020-05-16T23:26:00Z">
+        <test-method status="FAIL" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@52f27fbd]" name="addCustomerTest" duration-ms="0" started-at="2020-05-17T00:27:22Z" data-provider="dp" finished-at="2020-05-17T00:27:22Z">
           <params>
             <param index="0">
               <value>
@@ -267,7 +267,7 @@
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_22_EDT_2020.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -276,11 +276,11 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg><img src=Sat_May_16_23_26_00_EDT_2020.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_22_EDT_2020.jpg><img src=Sun_May_17_00_27_22_EDT_2020.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="FAIL" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@52f27fbd]" name="addCustomerTest" duration-ms="2" started-at="2020-05-16T23:26:00Z" data-provider="dp" finished-at="2020-05-16T23:26:00Z">
+        <test-method status="FAIL" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@52f27fbd]" name="addCustomerTest" duration-ms="0" started-at="2020-05-17T00:27:22Z" data-provider="dp" finished-at="2020-05-17T00:27:22Z">
           <params>
             <param index="0">
               <value>
@@ -334,7 +334,7 @@
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_23_EDT_2020.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -343,19 +343,19 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg><img src=Sat_May_16_23_26_00_EDT_2020.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_23_EDT_2020.jpg><img src=Sun_May_17_00_27_23_EDT_2020.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
       </class> <!-- com.w2a.testcases.AddCustomerTest -->
     </test> <!-- AddCustomerTest -->
-    <test name="OpenAccountTest" duration-ms="275" started-at="2020-05-17T03:26:00Z" finished-at="2020-05-17T03:26:00Z">
+    <test name="OpenAccountTest" duration-ms="259" started-at="2020-05-17T04:27:23Z" finished-at="2020-05-17T04:27:23Z">
       <class name="com.w2a.testcases.OpenAccountTest">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.w2a.testcases.OpenAccountTest@72bc6553]" name="setUP" is-config="true" duration-ms="15529" started-at="2020-05-16T23:25:43Z" finished-at="2020-05-16T23:25:59Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.w2a.testcases.OpenAccountTest@72bc6553]" name="setUP" is-config="true" duration-ms="16200" started-at="2020-05-17T00:26:56Z" finished-at="2020-05-17T00:27:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="FAIL" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@72bc6553]" name="openAccountTest" duration-ms="1" started-at="2020-05-16T23:26:00Z" data-provider="dp" finished-at="2020-05-16T23:26:00Z">
+        <test-method status="FAIL" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@72bc6553]" name="openAccountTest" duration-ms="1" started-at="2020-05-17T00:27:23Z" data-provider="dp" finished-at="2020-05-17T00:27:23Z">
           <params>
             <param index="0">
               <value>
@@ -409,7 +409,7 @@
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_23_EDT_2020.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -418,11 +418,11 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_May_16_23_26_00_EDT_2020.jpg><img src=Sat_May_16_23_26_00_EDT_2020.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Sun_May_17_00_27_23_EDT_2020.jpg><img src=Sun_May_17_00_27_23_EDT_2020.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@72bc6553]" name="tearDown" is-config="true" duration-ms="616" started-at="2020-05-16T23:26:00Z" finished-at="2020-05-16T23:26:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@72bc6553]" name="tearDown" is-config="true" duration-ms="592" started-at="2020-05-17T00:27:23Z" finished-at="2020-05-17T00:27:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
