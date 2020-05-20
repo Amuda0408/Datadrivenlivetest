@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="21.263" tests="7" errors="0" skipped="6" failures="1">
+<testsuite name="TestSuite" time="13.912" tests="7" errors="0" skipped="6" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
@@ -62,11 +62,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="setUp" classname="com.w2a.testcases.OpenAccountTest" time="21.263">
+  <testcase name="setUp" classname="com.w2a.testcases.OpenAccountTest" time="13.912">
     <failure type="java.lang.NumberFormatException:">java.lang.NumberFormatException: null
 	at java.lang.Integer.parseInt(Integer.java:542)
 	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.w2a.base.TestBase.setUp(TestBase.java:130)
+	at com.w2a.base.TestBase.setUp(TestBase.java:126)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -95,18 +95,12 @@
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 41050
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 9160
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 20, 2020 6:12:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 20, 2020 6:26:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1590012743.804][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590012743.906][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590012744.166][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590012744.407][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590012744.508][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590012744.692][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590012744.794][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590013622.555][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
   <testcase name="loginTest" classname="com.w2a.testcases.LoginTest" time="0">

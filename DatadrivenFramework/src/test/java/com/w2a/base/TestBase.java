@@ -21,9 +21,15 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.model.Test;
+import com.w2a.Utilities.ExcelReader;
+import com.w2a.Utilities.ExtentManager;
 import com.w2a.Utilities.TestUtil;
 import com.w2a.listeners.CustomListeners;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
@@ -40,10 +46,11 @@ public class TestBase {
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
-	public static com.w2a.Utilities.ExcelReader excel = new com.w2a.Utilities.ExcelReader(
+	public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
-
+	//public ExtentReports rep = ExtentManager.getInstance();
+	//public static ExtentTest test;
 	public static String browser;
 
 	@BeforeSuite
@@ -80,7 +87,6 @@ public class TestBase {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
 			
 			
 			
@@ -101,15 +107,12 @@ public class TestBase {
 			if (config.getProperty("browser").equals("firefox")) {
 
 				// System.setProperty("webdriver.gecko.driver", "gecko.exe");
-				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 
 			} else if (config.getProperty("browser").equals("chrome")) {
 
-				/*System.setProperty("webdriver.chrome.driver",
+				System.setProperty("webdriver.chrome.driver",
 						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
-			*/	
-				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
 				log.debug("Chrome Launched !!!");
 			} else if (config.getProperty("browser").equals("ie")) {
@@ -139,7 +142,8 @@ public class TestBase {
 		} else if (locator.endsWith("_ID")) {
 			driver.findElement(By.id(OR.getProperty(locator))).click();
 		}
-		//CustomListeners.testReport.get().log(Status.INFO, "Clicking on : " + locator);
+		//Test.log(LogStatus.INFO, "Clicking on : " + locator);
+		CustomListeners.testReport.get().log(Status.INFO, "Clicking on : " + locator);
 	}
 
 	public void type(String locator, String value) {
@@ -152,8 +156,8 @@ public class TestBase {
 			driver.findElement(By.id(OR.getProperty(locator))).sendKeys(value);
 		}
 
+		//test.log(LogStatus.INFO, "Typing in : " + locator + " entered value as " + value);
 		CustomListeners.testReport.get().log(Status.INFO, "Typing in : " + locator + " entered value as " + value);
-
 	}
 	
 	static WebElement dropdown;
@@ -171,8 +175,8 @@ public class TestBase {
 		Select select = new Select(dropdown);
 		select.selectByVisibleText(value);
 
+		//test.log(LogStatus.INFO, "Selecting from dropdown : " + locator + " value as " + value);
 		CustomListeners.testReport.get().log(Status.INFO, "Selecting from dropdown : " + locator + " value as " + value);
-
 	}
 
 	public boolean isElementPresent(By by) {
@@ -206,9 +210,9 @@ public class TestBase {
 			Reporter.log("<br>");
 			Reporter.log("<br>");
 			// Extent Reports
-			//CustomListeners.testReport.get().log(Status.FAIL, " Verification failed with exception : " + t.getMessage());
-			//CustomListeners.testReport.get().log(Status.FAIL, CustomListeners.testReport.get().addScreenCaptureFromPath(TestUtil.screenshotName));
-
+			//test.log(LogStatus.FAIL, " Verification failed with exception : " + t.getMessage());
+			//test.log(LogStatus.FAIL, test.addScreenCapture(TestUtil.screenshotName));
+			CustomListeners.testReport.get().log(Status.FAIL, " Verification failed with exception : " + t.getMessage());
 		}
 
 	}

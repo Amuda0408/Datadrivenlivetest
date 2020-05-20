@@ -4,16 +4,16 @@
            failures="1"
            errors="0"
            skipped="2"
-           time="18.690">
+           time="11.656">
   <properties />
-            <testcase name="setUp" time="18.690" classname="com.w2a.testcases.OpenAccountTest">
+            <testcase name="setUp" time="11.656" classname="com.w2a.testcases.OpenAccountTest">
                 <failure type="java.lang.NumberFormatException"
                   message="null"
               >
 <![CDATA[java.lang.NumberFormatException: null
   java.lang.Integer.parseInt(Integer.java:542)
   java.lang.Integer.parseInt(Integer.java:615)
-  com.w2a.base.TestBase.setUp(TestBase.java:130)
+  com.w2a.base.TestBase.setUp(TestBase.java:126)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
