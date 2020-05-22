@@ -2,12 +2,12 @@
 <testng-results skipped="5" failed="0" ignored="0" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Data Driven Basics" duration-ms="80" started-at="2020-05-20T22:27:06Z" finished-at="2020-05-20T22:27:06Z">
+  <suite name="Data Driven Basics" duration-ms="159" started-at="2020-05-21T16:58:59Z" finished-at="2020-05-21T16:58:59Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="19" started-at="2020-05-20T22:27:06Z" finished-at="2020-05-20T22:27:06Z">
+    <test name="LoginTest" duration-ms="34" started-at="2020-05-21T16:58:59Z" finished-at="2020-05-21T16:58:59Z">
       <class name="com.w2a.testcases.LoginTest">
-        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.w2a.testcases.LoginTest@eadd4fb]" name="loginTest" duration-ms="0" started-at="2020-05-20T18:27:06Z" finished-at="2020-05-20T18:27:06Z">
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.w2a.testcases.LoginTest@dc7df28]" name="loginTest" duration-ms="1" started-at="2020-05-21T12:58:59Z" finished-at="2020-05-21T12:58:59Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -16,7 +16,7 @@
               <![CDATA[java.lang.NumberFormatException: null
 	at java.lang.Integer.parseInt(Integer.java:542)
 	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.w2a.base.TestBase.setUp(TestBase.java:126)
+	at com.w2a.base.TestBase.setUp(TestBase.java:129)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -47,9 +47,9 @@
         </test-method> <!-- loginTest -->
       </class> <!-- com.w2a.testcases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test name="AddCustomerTest" duration-ms="30" started-at="2020-05-20T22:27:06Z" finished-at="2020-05-20T22:27:06Z">
+    <test name="AddCustomerTest" duration-ms="78" started-at="2020-05-21T16:58:59Z" finished-at="2020-05-21T16:58:59Z">
       <class name="com.w2a.testcases.AddCustomerTest">
-        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@57bc27f5]" name="addCustomerTest" duration-ms="0" started-at="2020-05-20T18:27:06Z" data-provider="dp" finished-at="2020-05-20T18:27:06Z">
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@20b2475a]" name="addCustomerTest" duration-ms="0" started-at="2020-05-21T12:58:59Z" data-provider="dp" finished-at="2020-05-21T12:58:59Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -58,7 +58,7 @@
               <![CDATA[java.lang.NumberFormatException: null
 	at java.lang.Integer.parseInt(Integer.java:542)
 	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.w2a.base.TestBase.setUp(TestBase.java:126)
+	at com.w2a.base.TestBase.setUp(TestBase.java:129)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@57bc27f5]" name="addCustomerTest" duration-ms="0" started-at="2020-05-20T18:27:06Z" data-provider="dp" finished-at="2020-05-20T18:27:06Z">
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@20b2475a]" name="addCustomerTest" duration-ms="0" started-at="2020-05-21T12:58:59Z" data-provider="dp" finished-at="2020-05-21T12:58:59Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -96,7 +96,7 @@
               <![CDATA[java.lang.NumberFormatException: null
 	at java.lang.Integer.parseInt(Integer.java:542)
 	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.w2a.base.TestBase.setUp(TestBase.java:126)
+	at com.w2a.base.TestBase.setUp(TestBase.java:129)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@57bc27f5]" name="addCustomerTest" duration-ms="0" started-at="2020-05-20T18:27:06Z" data-provider="dp" finished-at="2020-05-20T18:27:06Z">
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@20b2475a]" name="addCustomerTest" duration-ms="0" started-at="2020-05-21T12:58:59Z" data-provider="dp" finished-at="2020-05-21T12:58:59Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -134,7 +134,7 @@
               <![CDATA[java.lang.NumberFormatException: null
 	at java.lang.Integer.parseInt(Integer.java:542)
 	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.w2a.base.TestBase.setUp(TestBase.java:126)
+	at com.w2a.base.TestBase.setUp(TestBase.java:129)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -165,9 +165,9 @@
         </test-method> <!-- addCustomerTest -->
       </class> <!-- com.w2a.testcases.AddCustomerTest -->
     </test> <!-- AddCustomerTest -->
-    <test name="OpenAccountTest" duration-ms="3" started-at="2020-05-20T22:27:06Z" finished-at="2020-05-20T22:27:06Z">
+    <test name="OpenAccountTest" duration-ms="3" started-at="2020-05-21T16:58:59Z" finished-at="2020-05-21T16:58:59Z">
       <class name="com.w2a.testcases.OpenAccountTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.w2a.testcases.OpenAccountTest@15888343]" name="setUp" is-config="true" duration-ms="11656" started-at="2020-05-20T18:26:54Z" finished-at="2020-05-20T18:27:06Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.w2a.testcases.OpenAccountTest@4f0f2942]" name="setUp" is-config="true" duration-ms="12794" started-at="2020-05-21T12:58:46Z" finished-at="2020-05-21T12:58:59Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -176,7 +176,7 @@
               <![CDATA[java.lang.NumberFormatException: null
 	at java.lang.Integer.parseInt(Integer.java:542)
 	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.w2a.base.TestBase.setUp(TestBase.java:126)
+	at com.w2a.base.TestBase.setUp(TestBase.java:129)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -205,7 +205,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@15888343]" name="openAccountTest" duration-ms="0" started-at="2020-05-20T18:27:06Z" data-provider="dp" finished-at="2020-05-20T18:27:06Z">
+        <test-method status="SKIP" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@4f0f2942]" name="openAccountTest" duration-ms="0" started-at="2020-05-21T12:58:59Z" data-provider="dp" finished-at="2020-05-21T12:58:59Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -214,7 +214,7 @@
               <![CDATA[java.lang.NumberFormatException: null
 	at java.lang.Integer.parseInt(Integer.java:542)
 	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.w2a.base.TestBase.setUp(TestBase.java:126)
+	at com.w2a.base.TestBase.setUp(TestBase.java:129)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -243,7 +243,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@15888343]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-20T18:27:06Z" finished-at="2020-05-20T18:27:06Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@4f0f2942]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-21T12:58:59Z" finished-at="2020-05-21T12:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

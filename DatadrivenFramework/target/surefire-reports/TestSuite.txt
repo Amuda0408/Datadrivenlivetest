@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 14.24 sec <<< FAILURE! - in TestSuite
-setUp(com.w2a.testcases.OpenAccountTest)  Time elapsed: 13.912 sec  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 15.802 sec <<< FAILURE! - in TestSuite
+setUp(com.w2a.testcases.OpenAccountTest)  Time elapsed: 15.344 sec  <<< FAILURE!
 java.lang.NumberFormatException: null
 	at java.lang.Integer.parseInt(Integer.java:542)
 	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.w2a.base.TestBase.setUp(TestBase.java:126)
+	at com.w2a.base.TestBase.setUp(TestBase.java:129)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
