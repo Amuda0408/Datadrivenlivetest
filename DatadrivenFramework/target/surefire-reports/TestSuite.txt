@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 15.802 sec <<< FAILURE! - in TestSuite
-setUp(com.w2a.testcases.OpenAccountTest)  Time elapsed: 15.344 sec  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 18.273 sec <<< FAILURE! - in TestSuite
+setUp(com.w2a.testcases.OpenAccountTest)  Time elapsed: 17.797 sec  <<< FAILURE!
 java.lang.NumberFormatException: null
 	at java.lang.Integer.parseInt(Integer.java:542)
 	at java.lang.Integer.parseInt(Integer.java:615)

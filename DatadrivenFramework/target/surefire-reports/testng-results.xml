@@ -2,12 +2,12 @@
 <testng-results skipped="5" failed="0" ignored="0" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Data Driven Basics" duration-ms="159" started-at="2020-05-21T16:58:59Z" finished-at="2020-05-21T16:58:59Z">
+  <suite name="Data Driven Basics" duration-ms="122" started-at="2020-05-22T02:31:17Z" finished-at="2020-05-22T02:31:17Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="34" started-at="2020-05-21T16:58:59Z" finished-at="2020-05-21T16:58:59Z">
+    <test name="LoginTest" duration-ms="31" started-at="2020-05-22T02:31:17Z" finished-at="2020-05-22T02:31:17Z">
       <class name="com.w2a.testcases.LoginTest">
-        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.w2a.testcases.LoginTest@dc7df28]" name="loginTest" duration-ms="1" started-at="2020-05-21T12:58:59Z" finished-at="2020-05-21T12:58:59Z">
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.w2a.testcases.LoginTest@eadd4fb]" name="loginTest" duration-ms="0" started-at="2020-05-21T22:31:17Z" finished-at="2020-05-21T22:31:17Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -47,9 +47,9 @@
         </test-method> <!-- loginTest -->
       </class> <!-- com.w2a.testcases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test name="AddCustomerTest" duration-ms="78" started-at="2020-05-21T16:58:59Z" finished-at="2020-05-21T16:58:59Z">
+    <test name="AddCustomerTest" duration-ms="41" started-at="2020-05-22T02:31:17Z" finished-at="2020-05-22T02:31:17Z">
       <class name="com.w2a.testcases.AddCustomerTest">
-        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@20b2475a]" name="addCustomerTest" duration-ms="0" started-at="2020-05-21T12:58:59Z" data-provider="dp" finished-at="2020-05-21T12:58:59Z">
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@57bc27f5]" name="addCustomerTest" duration-ms="0" started-at="2020-05-21T22:31:17Z" data-provider="dp" finished-at="2020-05-21T22:31:17Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@20b2475a]" name="addCustomerTest" duration-ms="0" started-at="2020-05-21T12:58:59Z" data-provider="dp" finished-at="2020-05-21T12:58:59Z">
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@57bc27f5]" name="addCustomerTest" duration-ms="0" started-at="2020-05-21T22:31:17Z" data-provider="dp" finished-at="2020-05-21T22:31:17Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@20b2475a]" name="addCustomerTest" duration-ms="0" started-at="2020-05-21T12:58:59Z" data-provider="dp" finished-at="2020-05-21T12:58:59Z">
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@57bc27f5]" name="addCustomerTest" duration-ms="0" started-at="2020-05-21T22:31:17Z" data-provider="dp" finished-at="2020-05-21T22:31:17Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -165,9 +165,9 @@
         </test-method> <!-- addCustomerTest -->
       </class> <!-- com.w2a.testcases.AddCustomerTest -->
     </test> <!-- AddCustomerTest -->
-    <test name="OpenAccountTest" duration-ms="3" started-at="2020-05-21T16:58:59Z" finished-at="2020-05-21T16:58:59Z">
+    <test name="OpenAccountTest" duration-ms="4" started-at="2020-05-22T02:31:17Z" finished-at="2020-05-22T02:31:17Z">
       <class name="com.w2a.testcases.OpenAccountTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.w2a.testcases.OpenAccountTest@4f0f2942]" name="setUp" is-config="true" duration-ms="12794" started-at="2020-05-21T12:58:46Z" finished-at="2020-05-21T12:58:59Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.w2a.testcases.OpenAccountTest@15888343]" name="setUp" is-config="true" duration-ms="13459" started-at="2020-05-21T22:31:03Z" finished-at="2020-05-21T22:31:17Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -205,7 +205,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@4f0f2942]" name="openAccountTest" duration-ms="0" started-at="2020-05-21T12:58:59Z" data-provider="dp" finished-at="2020-05-21T12:58:59Z">
+        <test-method status="SKIP" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@15888343]" name="openAccountTest" duration-ms="0" started-at="2020-05-21T22:31:17Z" data-provider="dp" finished-at="2020-05-21T22:31:17Z">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[null]]>
@@ -243,7 +243,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@4f0f2942]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-21T12:58:59Z" finished-at="2020-05-21T12:58:59Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@15888343]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-21T22:31:17Z" finished-at="2020-05-21T22:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
